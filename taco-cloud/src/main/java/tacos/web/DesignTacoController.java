@@ -70,17 +70,18 @@ public class DesignTacoController {
 		return "design";
 	}
 
-	private Iterable<Ingredient> filterByType(List<Ingredient> ingredients, Type type) {
-		return ingredients.stream().filter(x -> x.getType().equals(type)).collect(Collectors.toList());
-	}
+	
 
 	@PostMapping
-	public String processOrder(@Valid TacoOrder order, Errors errors, SessionStatus sessionStatus) {
-		if (errors.hasErrors()) {
-			return "orderForm";
-		}
-		log.info("Order submitted: {}", order);
-		sessionStatus.setComplete();
-		return "redirect:/";
+	public String processTaco(@Valid Taco taco, Errors errors, @ModelAttribute TacoOrder tacoOrder) {
+	if (errors.hasErrors()) {
+	return "design";
+	}
+	tacoOrder.addTaco(taco);
+	log.info("Processing taco: {}", taco);
+	return "redirect:/orders/current";
+	}
+	private Iterable<Ingredient> filterByType(List<Ingredient> ingredients, Type type) {
+		return ingredients.stream().filter(x -> x.getType().equals(type)).collect(Collectors.toList());
 	}
 }
