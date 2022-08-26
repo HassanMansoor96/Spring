@@ -1,0 +1,182 @@
+!SESSION 2022-08-25 14:21:15.427 -----------------------------------------------
+eclipse.buildId=4.15.3.202208110744
+java.version=17.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_ZA
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -data C:\Users\Hassan\Desktop\Spring_Core\Spring\Chapter7 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2022-08-25 14:21:19.452
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-25 14:21:19.452
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@35c95869,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@558aa1f1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-25 14:21:19.452
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@361d8567,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3fd6dfbc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-08-25 14:21:22.533
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Hassan'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:45.984
+!MESSAGE npm ERR! Windows_NT 10.0.22000
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:45.986
+!MESSAGE npm ERR! argv "C:\\Users\\Hassan\\Desktop\\Spring_Core\\Material\\spring-in-action-6-samples-main\\ch07\\tacocloud-ui\\node\\node.exe" "C:\\Users\\Hassan\\Desktop\\Spring_Core\\Material\\spring-in-action-6-samples-main\\ch07\\tacocloud-ui\\node\\node_modules\\npm\\bin\\npm-cli.js" "install"
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:45.986
+!MESSAGE npm ERR! node v6.9.1
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:45.987
+!MESSAGE npm ERR! npm  v3.10.8
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:45.987
+!MESSAGE npm ERR! code EPROTO
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:45.988
+!MESSAGE npm ERR! errno EPROTO
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:45.988
+!MESSAGE npm ERR! syscall write
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:45.989
+!MESSAGE 
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:45.990
+!MESSAGE npm ERR! write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:45.990
+!MESSAGE npm ERR! 
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:45.990
+!MESSAGE npm ERR! 
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:45.991
+!MESSAGE npm ERR! If you need help, you may report this error at:
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:45.992
+!MESSAGE npm ERR!     <https://github.com/npm/npm/issues>
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:45.996
+!MESSAGE 
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:45.997
+!MESSAGE npm ERR! Please include the following file with any support request:
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:45.997
+!MESSAGE npm ERR!     C:\Users\Hassan\Desktop\Spring_Core\Material\spring-in-action-6-samples-main\ch07\tacocloud-ui\npm-debug.log
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:46.896
+!MESSAGE 'ng' is not recognized as an internal or external command,
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:46.897
+!MESSAGE operable program or batch file.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:46.901
+!MESSAGE 
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:46.907
+!MESSAGE npm ERR! Windows_NT 10.0.22000
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:46.907
+!MESSAGE npm ERR! argv "C:\\Users\\Hassan\\Desktop\\Spring_Core\\Material\\spring-in-action-6-samples-main\\ch07\\tacocloud-ui\\node\\node.exe" "C:\\Users\\Hassan\\Desktop\\Spring_Core\\Material\\spring-in-action-6-samples-main\\ch07\\tacocloud-ui\\node\\node_modules\\npm\\bin\\npm-cli.js" "run-script" "build"
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:46.908
+!MESSAGE npm ERR! node v6.9.1
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:46.908
+!MESSAGE npm ERR! npm  v3.10.8
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:46.909
+!MESSAGE npm ERR! code ELIFECYCLE
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:46.910
+!MESSAGE npm ERR! taco-web-ui@0.0.0 build: `ng build --dev`
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:46.910
+!MESSAGE npm ERR! Exit status 1
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:46.910
+!MESSAGE npm ERR! 
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:46.911
+!MESSAGE npm ERR! Failed at the taco-web-ui@0.0.0 build script 'ng build --dev'.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:46.911
+!MESSAGE npm ERR! Make sure you have the latest version of node.js and npm installed.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:46.913
+!MESSAGE npm ERR! If you do, this is most likely a problem with the taco-web-ui package,
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:46.914
+!MESSAGE npm ERR! not with npm itself.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:46.914
+!MESSAGE npm ERR! Tell the author that this fails on your system:
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:46.914
+!MESSAGE npm ERR!     ng build --dev
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:46.916
+!MESSAGE npm ERR! You can get information on how to open an issue for this project with:
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:46.916
+!MESSAGE npm ERR!     npm bugs taco-web-ui
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:46.916
+!MESSAGE npm ERR! Or if that isn't available, you can get their info via:
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:46.916
+!MESSAGE npm ERR!     npm owner ls taco-web-ui
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:46.917
+!MESSAGE npm ERR! There is likely additional logging output above.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-25 14:25:46.918
+!MESSAGE npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:46.918
+!MESSAGE 
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:46.920
+!MESSAGE npm ERR! Please include the following file with any support request:
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-25 14:25:46.920
+!MESSAGE npm ERR!     C:\Users\Hassan\Desktop\Spring_Core\Material\spring-in-action-6-samples-main\ch07\tacocloud-ui\npm-debug.log
+
+!ENTRY org.eclipse.ui 2 2 2022-08-25 14:52:45.434
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
